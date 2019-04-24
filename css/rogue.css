@@ -1,0 +1,164 @@
+/***** BASE STYLES *****/
+body {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  margin: auto;
+  width: 1200px;
+  height: 100px;
+}
+
+span {
+  color: #77a466;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+.full-width {
+  width: 1200px;
+}
+
+/***** TOP SECTION-HEADER *****/
+.half-width {
+  width: 600px;
+  float:left;
+}
+
+div {
+  display: block;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 23px;
+}
+
+nav {
+  display: block;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-right: 8px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  float: left;
+  clear:both;
+}
+
+/***** TOP SECTION *****/
+
+/***** PHOTO BLOCK *****/
+div .photo.full-width {
+  margin: 0;
+  padding: 5px 0;
+  height: 300px;
+  width: 1200px;
+}
+
+div #photo-blk {
+  display: block;
+  margin: 3px 0 0 0;
+  height: 288px;
+  border-top: solid 3px #77a466;
+  border-bottom: solid 3px #77a466;
+  clear: both;
+}
+
+img #photo-blk {
+  width: 1200px;
+}
+
+/***** Welcome Block *****/
+div .welcome {
+  margin: 0;
+  height: 175px;
+  width: 1200px;
+  padding: 5px 0;
+}
+
+div .welcome.full-width {
+  display:block;
+  margin: 3px 0 1px 0;
+  height: 170px;
+  border-top: solid 3px #77a466;
+  clear: both;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+p #welcome-info {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/***** BOTTOM SECTION-GRID *****/
+#bottom-sec {
+  display: block;
+  margin: 0 auto;
+  height: 210px;
+  padding: 1px;
+  clear: both;
+}
+
+h3 {
+  font-size: 12px;
+  line-height: 25px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 23px;
+}
+
+third-width, #menu {
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+    padding-top: 24px;
+    float: left;
+}
+third-width, #contact, #reviews {
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+    padding-top: 24px;
+    border-left: 1px solid #dedbdc;
+    padding-left: 16px;
+    float: left;
+}
+
+#menu, #reviews, #contact{
+  width: 378px;
+  height: 210px;
+}
+
+/****** FOOTER *****/
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+footer h2 {
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 23px;
+  padding: 40px;
+}
+
+footer span {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 19px;
+  text-transform: lowercase;
+  font-weight: 500;
+}
